@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 400;
+  src: url(./fonts/Mark\ Simonson\ \ Proxima\ Nova\ Regular.otf);
+}
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 600;
+  src: url(./fonts/Mark\ Simonson\ \ Proxima\ Nova\ Semibold.otf);
+}
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 700;
+  src: url(./fonts/Mark\ Simonson\ \ Proxima\ Nova\ Bold.otf);
+}
