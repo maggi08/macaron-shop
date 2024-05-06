@@ -1,5 +1,6 @@
 <template>
   <header class="header">
+    <HeaderBanners />
     <div class="header-upper">
       <div class="container">
         <div class="header-upper-content">
@@ -84,7 +85,13 @@
 </template>
 
 <script>
-export default {}
+import HeaderBanners from './HeaderBanners.vue'
+
+export default {
+  components: {
+    HeaderBanners
+  }
+}
 </script>
 
 <style scoped>

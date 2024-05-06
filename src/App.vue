@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .main {
-  margin-top: 215px;
+  margin-top: 278px;
   min-height: 100vh;
 }
 </style>
