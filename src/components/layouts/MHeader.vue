@@ -53,29 +53,29 @@
       </div>
     </div>
 
-    <div class="header-lower">
+    <div class="header-lower container">
       <nav class="header-lower-nav">
         <ul class="header-lower-nav-list">
-          <li>
-            <a class="header-lower-nav-link" href="/"> СЛАДКИЕ ДНИ % </a>
+          <li class="header-lower-nav-link">
+            <a href="/"> СЛАДКИЕ ДНИ % </a>
           </li>
-          <li>
-            <a class="header-lower-nav-link" href="/"> подарочные наборы </a>
+          <li class="header-lower-nav-link">
+            <a href="/"> подарочные наборы </a>
           </li>
-          <li>
-            <a class="header-lower-nav-link" href="/"> Собрать набор </a>
+          <li class="header-lower-nav-link">
+            <a href="/"> Собрать набор </a>
           </li>
-          <li>
-            <a class="header-lower-nav-logo" href="/"> Logo </a>
+          <li class="header-lower-nav-link">
+            <a href="/"> <img src="./icons/logo.svg" alt="" /> </a>
           </li>
-          <li>
-            <a class="header-lower-nav-link" href="/"> Создать дизайн </a>
+          <li class="header-lower-nav-link">
+            <a href="/"> Создать дизайн </a>
           </li>
-          <li>
-            <a class="header-lower-nav-link" href="/"> КОМПАНИЯМ </a>
+          <li class="header-lower-nav-link">
+            <a href="/"> КОМПАНИЯМ </a>
           </li>
-          <li>
-            <a class="header-lower-nav-link" href="/"> ВЕСЬ КАТАЛОГ </a>
+          <li class="header-lower-nav-link">
+            <a href="/"> ВЕСЬ КАТАЛОГ </a>
           </li>
         </ul>
       </nav>
@@ -88,6 +88,12 @@ export default {}
 </script>
 
 <style scoped>
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .header-upper {
   background: var(--pink);
   padding: 12px 0;
@@ -112,6 +118,7 @@ export default {}
 }
 .header-upper-nav-link a:hover {
   text-decoration: underline;
+  color: var(--blue-main);
 }
 
 .header-upper-info {
@@ -130,11 +137,39 @@ export default {}
 .header-upper-socials {
   display: flex;
 }
-
 .header-upper-socials a {
   margin-right: 8px;
 }
 .header-upper-socials a:last-child {
   margin-right: 0;
+}
+
+.header-lower {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: white;
+}
+.header-lower-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.header-lower-nav-link {
+  margin: 0 15px;
+}
+.header-lower-nav-link:first-child {
+  margin-left: 0;
+}
+.header-lower-nav-link:last-child {
+  margin-right: 0;
+}
+
+.header-lower-nav-link a {
+  text-transform: uppercase;
+}
+.header-lower-nav-link a:hover {
+  color: var(--blue-main);
 }
 </style>

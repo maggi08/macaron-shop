@@ -7,13 +7,20 @@ export default {
 </script>
 
 <template>
-  <MHeader />
+  <MHeader class="" />
 
-  <main>
+  <main class="main">
+    <h1>macaron shop</h1>
+    <h1>macaron shop</h1>
     <h1>macaron shop</h1>
   </main>
 
-  <MFooter />
+  <MFooter class="footer" />
 </template>
 
-<style scoped></style>
+<style scoped>
+.main {
+  margin-top: 215px;
+  min-height: 100vh;
+}
+</style>
