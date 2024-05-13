@@ -2,8 +2,9 @@
 import MFooter from '@/components/layouts/MFooter.vue'
 import MHeader from '@/components/layouts/MHeader.vue'
 import MHero from '@/components/home/hero/MHero.vue'
+import MCategories from '@/components/home/categories/MCategories.vue'
 export default {
-  components: { MHeader, MFooter, MHero }
+  components: { MHeader, MFooter, MHero, MCategories }
 }
 </script>
 
@@ -12,9 +13,8 @@ export default {
 
   <main class="main">
     <MHero />
-    <h1>macaron shop</h1>
-    <h1>macaron shop</h1>
-    <h1>macaron shop</h1>
+
+    <MCategories />
   </main>
 
   <MFooter class="footer" />
