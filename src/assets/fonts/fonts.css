@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 @font-face {
   font-family: Proxima Nova;
   font-weight: 400;
@@ -12,4 +39,8 @@
   font-family: Proxima Nova;
   font-weight: 700;
   src: url(./fonts/Mark\ Simonson\ \ Proxima\ Nova\ Bold.otf);
+}
+
+.mont {
+  font-family: Montserrat;
 }

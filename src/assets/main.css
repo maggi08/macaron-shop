@@ -10,6 +10,9 @@
     sans-serif;
   color: var(--black);
 }
+html {
+  background-color: var(--main-bg);
+}
 
 .container {
   width: 100%;

@@ -1,8 +1,9 @@
 <script>
 import MFooter from '@/components/layouts/MFooter.vue'
 import MHeader from '@/components/layouts/MHeader.vue'
+import MHero from '@/components/home/hero/MHero.vue'
 export default {
-  components: { MHeader, MFooter }
+  components: { MHeader, MFooter, MHero }
 }
 </script>
 
@@ -10,6 +11,7 @@ export default {
   <MHeader class="" />
 
   <main class="main">
+    <MHero />
     <h1>macaron shop</h1>
     <h1>macaron shop</h1>
     <h1>macaron shop</h1>
