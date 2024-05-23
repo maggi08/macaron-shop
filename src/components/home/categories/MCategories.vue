@@ -75,7 +75,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px 30px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 .category-item {
   position: relative;
