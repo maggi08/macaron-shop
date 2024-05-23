@@ -1,6 +1,6 @@
 <template>
+  <HeaderBanners />
   <header class="header">
-    <HeaderBanners />
     <div class="header-upper">
       <div class="container">
         <div class="header-upper-content">
@@ -90,13 +90,17 @@ import HeaderBanners from './HeaderBanners.vue'
 export default {
   components: {
     HeaderBanners
-  }
+  },
+  data() {
+    return {}
+  },
+  methods: {}
 }
 </script>
 
 <style scoped>
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;

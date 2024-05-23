@@ -4,9 +4,10 @@ import MFooter from '@/components/layouts/MFooter.vue'
 import MHeader from '@/components/layouts/MHeader.vue'
 import MCategories from '@/components/home/categories/MCategories.vue'
 import SaleProducts from '@/components/home/sale-products/SaleProducts.vue'
+import PopularProducts from './components/home/popular-products/PopularProducts.vue'
 
 export default {
-  components: { MHeader, MFooter, MHero, MCategories, SaleProducts }
+  components: { MHeader, MFooter, MHero, MCategories, SaleProducts, PopularProducts }
 }
 </script>
 
@@ -19,6 +20,8 @@ export default {
     <MCategories />
 
     <SaleProducts />
+
+    <PopularProducts />
   </main>
 
   <MFooter class="footer" />
@@ -26,7 +29,6 @@ export default {
 
 <style scoped>
 .main {
-  margin-top: 278px;
   min-height: 100vh;
 }
 </style>
