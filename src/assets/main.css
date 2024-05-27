@@ -24,11 +24,13 @@ a {
   text-decoration: none;
 }
 
-.sale-carousel .carousel__pagination-button::after {
+.sale-carousel .carousel__pagination-button::after,
+.news-carousel .carousel__pagination-button::after {
   width: 12px;
   height: 12px;
   background-color: white;
 }
-.sale-carousel .carousel__pagination-button--active::after {
+.sale-carousel .carousel__pagination-button--active::after,
+.news-carousel .carousel__pagination-button--active::after {
   background-color: #e7426a;
 }
