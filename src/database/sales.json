@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Супербольшие наборы от 1000 Рублей",
+    "tag": "НОВИНКА",
+    "tagColor": "",
+    "color": "52B351",
+    "img": "@/assets/img/sales1.png"
+  },
+  {
+    "title": "Эклер + 1 макарон = 99 рублей",
+    "tag": "АКЦИЯ",
+    "tagColor": "",
+    "color": "FAB2D6",
+    "img": "@/assets/img/sales2.png"
+  },
+  {
+    "title": "СУПЕРМАКАРУХИ ПО СУПЕРЦЕНАМ",
+    "tag": "АКЦИЯ",
+    "tagColor": "",
+    "color": "7EA1CC",
+    "img": "@/assets/img/sales3.png"
+  },
+  {
+    "title": "Великолепные трубочки. Самые вкусные на свете",
+    "tag": "НОВИНКА",
+    "tagColor": "",
+    "color": "F29B35",
+    "img": "@/assets/img/sales4.png"
+  },
+  {
+    "title": "По СПб в районе КАД –  от 3000₽ По МСК – от 5000₽",
+    "tag": "БЕСПЛАТНАЯ ДОСТАВКА",
+    "tagColor": "87C9F5",
+    "color": "",
+    "img": "@/assets/img/sales5.png"
+  },
+  {
+    "title": "Шоколадное пирожное картошка на основе бисквита!",
+    "tag": "НОВИНКА",
+    "tagColor": "7CCD7B",
+    "color": "",
+    "img": "@/assets/img/sales6.png"
+  },
+  {
+    "title": "Аппетитные конфеты на основе миндального печенья и крема",
+    "tag": "НОВИНКА",
+    "tagColor": "7CCD7B",
+    "color": "",
+    "img": "@/assets/img/sales7.png"
+  },
+  {
+    "title": "Карамель на палочке из натуральных ингредиентов",
+    "tag": "СЛАДКАЯ НОВИНКА",
+    "tagColor": "7CCD7B",
+    "color": "",
+    "img": "@/assets/img/sales8.png"
+  },
+  {
+    "title": "Шоколадное пирожное картошка на основе бисквита!",
+    "tag": "НОВИНКА",
+    "tagColor": "FF4567",
+    "color": "",
+    "img": "@/assets/img/sales9.png"
+  },
+  {
+    "title": "Аппетитные конфеты  на основе миндального печенья и крема",
+    "tag": "НОВИНКА",
+    "tagColor": "FF4567",
+    "color": "",
+    "img": "@/assets/img/sales10.png"
+  },
+  {
+    "title": "По СПб в районе КАД –  от 3000₽ По МСК – от 5000₽",
+    "tag": "БЕСПЛАТНАЯ ДОСТАВКА",
+    "tagColor": "90C8F0",
+    "color": "",
+    "img": "@/assets/img/sales11.png"
+  },
+  {
+    "title": "",
+    "tag": "",
+    "tagColor": "",
+    "color": "",
+
+    "img": "@/assets/img/sales1.png"
+  },
+  {
+    "title": "",
+    "tag": "",
+    "tagColor": "",
+    "color": "",
+    "img": "@/assets/img/sales1.png"
+  }
+]
