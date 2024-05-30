@@ -7,16 +7,16 @@
           <nav class="header-upper-nav">
             <ul class="header-upper-nav-list">
               <li class="header-upper-nav-link">
-                <a href="/">Гарантия свежести</a>
+                <router-link to="/">Гарантия свежести</router-link>
               </li>
               <li class="header-upper-nav-link">
-                <a href="/">Доставка и оплата</a>
+                <router-link to="/">Доставка и оплата</router-link>
               </li>
               <li class="header-upper-nav-link">
-                <a href="/">Оптовые поставки</a>
+                <router-link to="/">Оптовые поставки</router-link>
               </li>
               <li class="header-upper-nav-link">
-                <a href="/">Контакты</a>
+                <router-link to="/">Контакты</router-link>
               </li>
             </ul>
           </nav>
@@ -58,25 +58,25 @@
       <nav class="header-lower-nav">
         <ul class="header-lower-nav-list">
           <li class="header-lower-nav-link">
-            <a href="/"> СЛАДКИЕ ДНИ % </a>
+            <router-link to="/sweet-days"> СЛАДКИЕ ДНИ % </router-link>
           </li>
           <li class="header-lower-nav-link">
-            <a href="/"> подарочные наборы </a>
+            <router-link to="/gift-box"> подарочные наборы </router-link>
           </li>
           <li class="header-lower-nav-link">
-            <a href="/"> Собрать набор </a>
+            <router-link to="/create-box"> Собрать набор </router-link>
           </li>
           <li class="header-lower-nav-link">
-            <a href="/"> <img src="./icons/logo.svg" alt="" /> </a>
+            <router-link to="/"> <img src="./icons/logo.svg" alt="" /> </router-link>
           </li>
           <li class="header-lower-nav-link">
-            <a href="/"> Создать дизайн </a>
+            <router-link to="/creat-design"> Создать дизайн </router-link>
           </li>
           <li class="header-lower-nav-link">
-            <a href="/"> КОМПАНИЯМ </a>
+            <router-link to="/to-company"> КОМПАНИЯМ </router-link>
           </li>
           <li class="header-lower-nav-link">
-            <a href="/"> ВЕСЬ КАТАЛОГ </a>
+            <router-link to="/catalog"> ВЕСЬ КАТАЛОГ </router-link>
           </li>
         </ul>
       </nav>
