@@ -1,5 +1,5 @@
 <template>
-  <HeaderBanners />
+  <HeaderBanners v-if="$route.name === 'home'" />
   <header class="header">
     <div class="header-upper">
       <div class="container">

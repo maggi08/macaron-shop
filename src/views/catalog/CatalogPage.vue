@@ -1,9 +1,33 @@
 <template>
-  <h1>Catalog</h1>
+  <UiBreadCrumbs class="catalog-bread-crumbs" :links="links" />
 </template>
 
 <script>
-export default {}
+import UiBreadCrumbs from '@/components/ui/UiBreadCrumbs.vue'
+export default {
+  components: { UiBreadCrumbs },
+  data() {
+    return {
+      links: [
+        {
+          text: 'Главная',
+          path: '/'
+        },
+        {
+          text: 'Каталог',
+          path: '/catalog'
+        }
+        // { text: 'Готовые наборы',
+        //   path: '/catalog/ready-boxes'
+        // }
+      ]
+    }
+  }
+}
 </script>
 
-<style></style>
+<style scoped>
+.catalog-bread-crumbs {
+  margin-top: 50px;
+}
+</style>
