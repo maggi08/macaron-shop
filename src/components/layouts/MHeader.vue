@@ -66,9 +66,11 @@
           <li class="header-lower-nav-link">
             <router-link to="/create-box"> Собрать набор </router-link>
           </li>
-          <li class="header-lower-nav-link">
-            <router-link to="/"> <img src="./icons/logo.svg" alt="" /> </router-link>
-          </li>
+        </ul>
+        <router-link class="header-lower-nav-link logo" to="/">
+          <img src="./icons/logo.svg" alt="" />
+        </router-link>
+        <ul class="header-lower-nav-list">
           <li class="header-lower-nav-link">
             <router-link to="/creat-design"> Создать дизайн </router-link>
           </li>
@@ -161,15 +163,27 @@ export default {
   padding-bottom: 16px;
   background: white;
 }
+.header-lower-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .header-lower-nav-list {
   display: flex;
   list-style: none;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
 }
+.header-lower-nav-list:last-child {
+  justify-content: flex-start;
+}
 .header-lower-nav-link {
+  white-space: nowrap;
   margin: 0 15px;
+}
+.header-lower-nav-link.logo {
+  margin: 0 30px;
 }
 .header-lower-nav-link:first-child {
   margin-left: 0;
