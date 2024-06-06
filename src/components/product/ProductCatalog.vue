@@ -3,7 +3,7 @@
     <div class="catalog-list">
       <ProductCard v-for="item in 9" :key="item" />
     </div>
-    <UiButton class="catalog-btn"> Все праздничные наборы </UiButton>
+    <UiButton class="catalog-btn"> <slot name="bottom-btn"> button </slot> </UiButton>
   </div>
 </template>
 

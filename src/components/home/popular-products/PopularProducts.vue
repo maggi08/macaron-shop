@@ -2,7 +2,9 @@
   <div class="popular container">
     <p class="popular-title mont">Популярные наборы</p>
 
-    <ProductCatalog class="popular-catalog" />
+    <ProductCatalog class="popular-catalog">
+      <template #bottom-btn> Все праздничные наборы </template>
+    </ProductCatalog>
   </div>
 </template>
 
